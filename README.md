@@ -9,4 +9,4 @@
 同时使Myjob和TaskDef增加restURL相关参数使其将任务地址暴露为restAPI。即可实现跨服务调用
 
 ## 如何部署
-修改application.properties文件中的数据库配置，同时在数据库中执行项目跟路径下的task_def.sql脚本,然后启动项目即可
+修改application.properties文件中的数据库配置，同时在数据库中执行项目根路径下的task_def.sql脚本,然后启动项目即可
